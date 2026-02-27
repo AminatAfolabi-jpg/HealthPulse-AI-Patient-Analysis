@@ -385,7 +385,7 @@ Since the source system does not provide physical capacity limits, a synthetic b
 
 
 
-
+```python
 
 import pandas as pd
 
@@ -404,6 +404,8 @@ np.random.seed(42)
 \# If we have 15 clinics, it creates 15 numbers.
 
 dim\_clinics\['Clinic\_capacity'] = np.random.randint(80, 150, size=len(dim\_clinics))
+
+```
 
 
 
